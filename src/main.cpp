@@ -62,7 +62,7 @@ void loop() {
     serializeJson(doc, payload);
 
 
-    urusanIoT.publish("thegroovestreet/sudarsan/status", payload);
+    urusanIoT.publish("groovestreet/sudarsan/status", payload);
   }
 
 
@@ -77,7 +77,7 @@ void loop() {
 
 
 void subscribe() {
-  urusanIoT.subscribe("thegroovestreet/sudarsan/command");
+  urusanIoT.subscribe("groovestreet/sudarsan/command");
 }
 
 
