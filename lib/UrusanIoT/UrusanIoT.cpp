@@ -30,7 +30,7 @@ void UrusanIoT::konek(){
     while(!status){
       delay(100);
       if(millis() - timer > 10000){break;}
-    }
+ }
 
 
     if(status){
@@ -74,8 +74,6 @@ void UrusanIoT::publish(String topic, String message){
   Serial.printf("UrusanIoT: Mempublish pesan: %s, ke topik: %s.\n\r", message.c_str(), topic.c_str());
   client.publish(topic.c_str(), message.c_str());
 }
-
-
 /// @brief Subscribe topik dari broker
 /// @param topic
 void UrusanIoT::subscribe(String topic){
