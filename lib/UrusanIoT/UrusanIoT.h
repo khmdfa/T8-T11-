@@ -1,4 +1,3 @@
-// Belum dimasak
 #ifndef UrusanIoT_h
 #define UrusanIoT_h
 
