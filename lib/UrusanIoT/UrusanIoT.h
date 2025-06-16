@@ -22,7 +22,7 @@ class UrusanIoT {
         const char* _broker;
         const int _port;
         const char* _clientId;
-        const char* _brokerUsername;
+const char* _brokerUsername;
         const char* _brokerPassword;
         WiFiClient net;
         MQTTClient client;
