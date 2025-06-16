@@ -8,7 +8,7 @@
 #define CURRENT_FIRMWARE_VERSION "0.0.1"
 #define NIM 42330044
 #define NAMA_LENGKAP "Khamdafa Wibiyan Pratama"
-#define NAMA_KELOMPOK "The Grove Street"
+#define NAMA_KELOMPOK "Groove Street"
 
 #define USE_WIFI_OTA
 
@@ -62,11 +62,11 @@
 
 #ifdef USE_IOT_SECURE
 static const int tbPort = 8883;
-static constexpr char tbAddr[] PROGMEM = "broker.hivemq.com";
+static constexpr char tbAddr[] PROGMEM = "prita.undiknas.ac.id";
 static constexpr char binURL[] PROGMEM = "https://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #else
 static const int tbPort = 1883;
-static constexpr char tbAddr[] PROGMEM = "broker.hivemq.com";
+static constexpr char tbAddr[] PROGMEM = "192.168.8.2";
 static constexpr char binURL[] PROGMEM = "http://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #endif
 static constexpr char model[] PROGMEM = "Gadadar4Ch";
